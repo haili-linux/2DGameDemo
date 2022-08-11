@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal"
+	android:id="@+id/mainLinearLayout"
+	android:background="@drawable/background_1">
+
+	<TextView
+		android:layout_height="150dp"
+		android:layout_width="50dp"
+		android:id="@+id/mainTextView2_rock"
+		android:background="#009C7A"/>
+
+	<TextView
+		android:layout_width="200dp"
+		android:layout_height="150dp"
+		android:id="@+id/mainTextView1"
+		android:textSize="15sp"
+		android:textColor="#FF0F00"
+		android:background="@drawable/badao_1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:onClick="button_attack"
+		android:text="攻击"
+		android:id="@+id/button_attack_id"/>
+
+	<Button
+		android:layout_width="80dp"
+		android:layout_height="50dp"
+		android:text="↑"
+		android:id="@+id/button_move_up"
+		android:background="@drawable/button_move"/>
+
+	<Button
+		android:layout_width="80dp"
+		android:layout_height="50dp"
+		android:text="←"
+		android:background="@drawable/button_move"
+		android:id="@+id/button_move_left"/>
+
+	<Button
+		android:layout_width="80dp"
+		android:layout_height="50dp"
+		android:text="→"
+		android:background="@drawable/button_move"
+		android:id="@+id/button_move_right"/>
+
+	<Button
+		android:layout_width="80dp"
+		android:layout_height="50dp"
+		android:text="↓"
+		android:background="@drawable/button_move"
+		android:id="@+id/button_move_down"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:onClick="button_cs"
+		android:id="@+id/button_cs"
+		android:text="测试"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:onClick="button"
+		android:id="@+id/rebutton"
+		android:text="重置"/>
+
+</RelativeLayout>
+
